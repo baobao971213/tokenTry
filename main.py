@@ -82,8 +82,8 @@ def get_token(username, password):
 
 
 if __name__ == "__main__":
-    name = 'q010@mychangjie.com'
-    pass_w = 'Qq123456'
+    name = '邮箱账号'
+    pass_w = '密码'
     tokenTry = get_token(name, pass_w)
     dict_try = json.loads(tokenTry)
     # print(type(dict_try))
